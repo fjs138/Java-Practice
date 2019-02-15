@@ -1,8 +1,25 @@
+/*Packages:
+ The prefix of a unique package name is always written in all-lowercase ASCII letters
+ and should be one of the top-level domain names, like com, edu, gov, mil, net, org.
+ Subsequent components of the package name vary according to an organisation’s own
+ internal naming conventions.
+ Examples:
+
+ com.sun.eng
+ com.apple.quicktime.v2
+
+ // java.lang packet in JDK
+ java.lang
+ */
+
 package com.company;
 
-/**
- * This class has a recursive method.
- */
+/** This class has a recursive method. */
+
+/** This type of comment will be picked up by Javadoc. Javadoc is a tool that
+ * parses the declarations and documentation comments in a set of source files
+ * and produces a set of HTML pages describing the classes, interfaces,
+ * constructors, methods, and fields. */
 
 /**Class names should be nouns, in mixed case with the first
  * letter of each internal word capitalized. Interface names
@@ -16,7 +33,7 @@ package com.company;
  * interface Sport
  * class Football implements Sport
  */
-public class EndlessRecursion
+class EndlessRecursion
 {
     /** Methods should be verbs, in mixed case with the first
      * letter lowercase and with the first letter of each internal
@@ -28,7 +45,7 @@ public class EndlessRecursion
      * void speedUp(int increment);
      * void applyBrakes(int decrement);
      */
-    public static <string> void message()
+    static <string> void message()
     {
         /**Variable names should be short yet meaningful.
          * Should not start with underscore(‘_’) or dollar sign ‘$’
@@ -61,6 +78,8 @@ public class EndlessRecursion
          public static final float NEGATIVE_INFINITY = -1.0f / 0.0f;
          public static final float NaN = 0.0f / 0.0f;
          **/
+
+        /* Oh no, a silly unused variable! */
 
         final int MIN_WIDTH = 4;
 
