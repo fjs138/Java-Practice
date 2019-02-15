@@ -6,7 +6,10 @@ public class Main {
 	// write your code here
         System.out.println();
 
-        //mwahaha!
+        //The following line (10) will cause a stack overflow!
         //EndlessRecursion.message();
+
+        //Causes error...
+        //HelloWorld();
     }
 }
