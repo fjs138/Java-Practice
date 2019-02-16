@@ -33,7 +33,7 @@ package com.company;
  * interface Sport
  * class Football implements Sport
  */
-class EndlessRecursion
+public class EndlessRecursion
 {
     /** Methods should be verbs, in mixed case with the first
      * letter lowercase and with the first letter of each internal
