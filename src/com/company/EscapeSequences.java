@@ -12,7 +12,11 @@ public class EscapeSequences {
         System.out.println("\\\\ | Backslash | Causes a backslash to be printed");
         System.out.println("\\' | Single quote | Causes a single quotation mark to be printed ");
         System.out.println("?? | Double quote | Causes a double quotation mark to be printed ");
-        System.out.println("Man, how do we get that last one!? Double quotes?!");
+        System.out.println("Man, how do we get that last one!? Double quotes?!\n");
+
+        System.out.println("\"Quotes on quotes on quotes\"");
+
+
 
 
     }
