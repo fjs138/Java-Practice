@@ -12,6 +12,8 @@
  java.lang
  */
 
+//Exciting naming convention tips included throughout as a bonus!!!
+
 package com.company;
 
 /** This class has a recursive method. */

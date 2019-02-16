@@ -19,6 +19,20 @@ public class MathFun {
         System.out.print("3.5 * 4 / 2 – 2.5 is ");
         System.out.println(3.5 * 4 / 2 - 2.5);
 
+        double funNumber1 = (3.5 * 4 / 2 - 2.5);
+        double funNumber2 = (3.14+3*2-1/3); //this looks ugly, make sure to use spaces!
+
+        // why wont this work?
+        // int funNumber1 = (int) funNumber1;
+        System.out.println();
+        System.out.println("This is from a variable called funNumber1: \n" + funNumber1);
+        System.out.println();
+        System.out.println("This is from a variable called funNumber2: \n" + funNumber2);
+        System.out.println();
+        System.out.print("This is actually from \"print\" not \"println\" but we have a new line!\n");
+        System.out.println("Check the code to find out why!");
+
+
 
 
     }
