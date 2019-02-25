@@ -4,7 +4,8 @@ import java.util.Scanner;
 public class LotteryUsingStrings {
     public static void main(String[] args) {
         // Generate a lottery as a two-digit string
-        String lottery = " " + (int)(Math.random() * 10) + (int)(Math.random() * 10);
+        String lottery = "" + (int)(Math.random() * 10) + (int)(Math.random() * 10);
+
 
         // Prompt the user to enter a guess
         Scanner input = new Scanner(System.in);
@@ -12,9 +13,23 @@ public class LotteryUsingStrings {
         String guess = input.nextLine();
 
         // Get digits from lottery
+        char lotteryDigit1 = lottery.charAt(0);
+        char lotteryDigit2 = lottery.charAt(1);
 
         // Get digits from guess
+        char guessDigit1 = guess.charAt(0);
+        char guessDigit2 = guess.charAt(1);
+
+        System.out.println( "The lottery number is " + lottery);
 
         // Check the guess
+        if (guess.equals(lottery))
+            System.out.println("Exact match: you win $10k");
+        else if (guessDigit1 == lotteryDigit2 && guessDigit2 == lotteryDigit1)
+            System.out.println("Match two digits: you win $3k");
+        else if (guessDigit1 == lotteryDigit1 || guessDigit1 == lotteryDigit2 || guessDigit2 == lotteryDigit1 || guessDigit2 == lotteryDigit2)
+            System.out.println("Match one digit: you win $1k");
+        else
+            System.out.println("Sorry, no match");
     }
 }
