@@ -32,6 +32,48 @@ public class MathFun {
         System.out.print("This is actually from \"print\" not \"println\" but we have a new line!\n");
         System.out.println("Check the code to find out why!");
 
+        double result = Math.pow(4,2);
+        System.out.println("4 to the 2nd power is " + result);
+
+        result = Math.sqrt(9.0);
+        System.out.println("The square root of 9 is " + result);
+
+        result = (int)(Math.random()*100);
+        System.out.println("\nMath dot random generates " + result);
+
+        double portion;
+        portion = 70. /3.;
+        System.out.println("\nResult of double variable assigned 70./3.");
+        System.out.println(portion);
+
+        portion = 70 /3;
+        System.out.println("Result of double variable assigned 70/3");
+        System.out.println(portion);
+
+        System.out.println();
+        System.out.println("Combined Assignment Operators:");
+        System.out.println("This:");
+
+        System.out.println("x = 0;\n" + "x += 5;");
+
+
+
+        int x = 0;
+        x += 5;
+        System.out.println(x);
+
+        System.out.println();
+        System.out.println("Is the same as this:");
+
+        System.out.println("x = 0;\n" + "x = x + 5;");
+
+        x = 0;
+        x = x + 5;
+        System.out.println(x);
+
+
+
+
 
 
 
