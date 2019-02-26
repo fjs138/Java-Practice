@@ -27,6 +27,9 @@ public class Arithmetic {
         int leftOver = 17 % 3;
         System.out.println(leftOver);
 
+        System.out.println();
+
+
         number = 5/2;
         double number2 = (double)5 / 2;
         double number3 = (5 / 2F);
@@ -35,6 +38,42 @@ public class Arithmetic {
         System.out.println(number2);
         System.out.println(number3);
         System.out.println(number4);
+
+        System.out.println();
+
+        double varDouble;
+        float varFloat;
+        long varLong;
+        int varInt;
+        short varShort;
+        byte varByte;
+
+        /**In assignment statements where values of lower-ranked data types are stored in variables of
+        higher-ranked data types, Java automatically converts the lower-ranked value to the higher-ranked type.
+         This is called a widening conversion.**/
+        varByte = 1;
+        varShort = varByte;
+        varInt = varShort;
+        varLong = varInt;
+        varFloat = varLong;
+        varDouble = varFloat;
+        System.out.println(varDouble);
+
+        /**A narrowing conversion is the conversion of a value to a lower-ranked type. For example,
+         converting a double to an int would be a narrowing conversion. Because narrowing con-
+         versions can potentially cause a loss of data, Java does not automatically perform them.**/
+
+        /**The cast operator lets you manually convert a value, even if it means that a narrowing
+        //conversion will take place.**/
+        varByte = (byte) varDouble; //narrowing
+        System.out.println(varByte);
+
+        varDouble = varByte; // widening
+        System.out.println(varDouble);
+
+
+
+
 
 
 

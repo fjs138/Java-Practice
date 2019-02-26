@@ -26,6 +26,9 @@ public class Contribution {
     // Calculate and display a 10% contribution.
     contribution = monthlyPay * 0.1;
     System.out.println("10 percent is $" + contribution + " per month.");
+
+
+
     }
 
 }
