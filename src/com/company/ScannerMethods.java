@@ -49,8 +49,10 @@ public class ScannerMethods {
         //nextLine
         String nameString;
         System.out.print("Enter your name: ");
-        nameString = keyboard.nextLine();
+        nameString = keyboard.next();
         System.out.println(nameString);
+        System.out.println(nameString.length());
+
 
 
         //nextLong
