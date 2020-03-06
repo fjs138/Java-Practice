@@ -1,3 +1,6 @@
+## Java Apps Collection 2
+Further practice to stay sharp and indulge in a little Java.
+
 ## License
 MIT License
 
